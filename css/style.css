@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #F2F2F2;
+	color: #0D0000;
+}
+.logo {
+	font-size: 30px;
+	font-weight: 400;
+}
+.logo span {
+	font-size: 0;	
+	transition: 0.3s;
+	transition-timing-function: ease-out;
+}
+.logo:hover span{
+	font-size: 20px;
+	transition: 0.5s;
+	transition-timing-function: ease-out;
+}
+.navbar a {
+	color: #0D0000;
+}
+.navbar ul li a:hover {
+	color: darkgrey;
+}
+.clicked {
+	text-decoration: line-through;
+}
+.jumbotron {
+	text-align: center;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	background-color: #F2F2F2;
+}
+.h2 {
+	color: #0D0000;
+}
+.h5 {
+	color: #C02044;
+}
+.homeDesc {
+	width: 80%;
+}
+.html5 {
+	font-weight: 400;
+}
+.icons-social {
+	display: grid;
+	width: 100%;
+	justify-items: center;
+	justify-content: center;
+	grid-template-columns: 30px 30px 30px;
+	grid-gap: 30px;
+}
+.icons-social a {
+color: #C02044 ;
+}
+.icons-social a:hover {
+	color: #72A9F2;
+}
+
+

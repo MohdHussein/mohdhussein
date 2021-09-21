@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #F2F2F2;
+	color: #C02044;
+}
+.logo {
+	font-size: 30px;
+	font-weight: normal;
+
+}
+.logo span {
+	font-size: 0;	
+	font-weight: lighter;
+	transition: 0.3s;
+	transition-timing-function: ease-out;
+}
+.logo:hover span {
+	font-size: 20px;
+	transition: 0.5s;
+	transition-timing-function: ease-out;
+}
+.navbar a {
+	color: #0D0000;
+}
+.navbar ul li a:hover {
+	color: darkgrey;
+}
+.clicked {
+	text-decoration: line-through;
+}
+.navbar-toggler span {
+	color: #C02044;
+}
+
+.navbar a {
+	color: #0D0000;
+}
+
+
+.badge {
+	background-color: #72A9F2;
+	color: #0D0000;
+}
+
+p:first-of-type {
+	color: #0D0000;
+}
+section {
+	width: 100%;
+	text-align: center;
+	display: grid;
+	justify-items: center;
+}
+section p {
+	text-align: center;
+	width: 60%;
+
+}
+ul {
+	display:flex;
+	flex-direction: column;
+  }
+
+.h5 {
+	color: #0D0000;
+}
+
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) { 
+	section p {
+		width: 80%;
+		
+	}
+	
+ }
